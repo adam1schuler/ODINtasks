@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>UL&OL2</title>
+    </head>
+    <body>
+        <h1> OL and UL 2nd go!<sub>with emphisis on <mark>nested lists</mark></sub></h1>
+        <p> This will be my second <i>ordered</i> and <i>unordered</i> 
+            list <mark>HTML</mark> page. i want to play with the idea of 
+            <i>nested lists</i> more. <small>i think it is important 
+                to get this down a bit better before i move on</small>
+                <bold>hopefully</bold> i can figure out how to create 
+                headings within the ol and ul lists.
+                <!--you need to be very careful when nesting lists,
+                the only element we can place as a direct child of the 
+                <ul> and <ol> elements is the <li> element.
+                    That said, once inside the <li> element, 
+                        the standard set of elements may be added, 
+                        including any <ul> or <ol> elements.-->
+        </p>
+        <h2>Overall List</h2>
+        <ol>
+            <li><h3>things i like</h3></li>
+            <ol>
+                <li><h4>crypto</h4></li>
+                <ol>
+                    <li><h5>stablecoins</h5></li>
+                    <ul>
+                        <li>usdc</li>
+                        <li>frax</li>
+                        <li>dai</li>
+                        <li>fusd</li>
+                    </ul>
+                    <li><h5>shitcoins</h5></li>
+                    <ul>
+                        <li>fsb</li>
+                        <li>cns</li>
+                        <li>amp</li>
+                    </ul>
+                    <li><h5>real coins</h5></li>
+                    <ul>
+                        <li>eth</li>
+                        <li>btc</li>
+                        <li>fuse</li>
+                    </ul>
+                </ol>
+                <li><h4>music</h4></li>
+                <ol>
+                    <li><h5>grunge</h5></li>
+                    <ul>
+                        <li>nivanna</li>
+                        <li>soundgarden</li>
+                        <li>alice in chains</li>
+                    </ul>
+                    <li><h5><indy/h5></li>
+                    <ul>
+                        <li>bright eyes</li>
+                        <li>frightened rabbit</li>
+                        <li>interpole</li>
+                    </ul>
+                    <li><h5>classic rock</h5></li>
+                </ol>
+            </ol>
+            <li><h3>things i hate</h3></li>
+            <ol>
+                <li><h4>seafood</h4></li>
+                <ol>
+                    <li>shrimp</li>
+                    <li>crab</li>
+                    <li>lobster</li>
+                </ol>
+                <li><h4>people</h4></li>
+                <ol>
+                    <li>mean</li>
+                    <li>lazy</li>
+                    <li>rude</li>
+
+                </ol>
+            </ol>
+        </ol>
+        <!-- took 3 tries of doing this, and starting 
+            over for me to get it right referr to this:
+            https://learn.shayhowe.com/html-css/creating-lists/-->
+            <!-- usib=ng the <h1>-<h5> headings seems to add extra space 
+                between the different levels of the list
+                this would probably be better handled with 
+                .css styling-->
+    </body>
+</html>
