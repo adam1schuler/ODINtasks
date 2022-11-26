@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <h1></h1>
+        <img src="" alt="" width="">
+        <p>
+        <h2></h2>
+         
+    </p>
+    <p>
+        
+    </p>
+    <p>
+        <a href="#reivews-comments"> reviews 
+            and comments</a>
+    </p>
+    <ul>
+        <li><strong></strong><li>
+        <li><strong></strong></li>
+        <li><strong></strong></li>
+        <li><strong></strong></li>
+        <li><strong></strong></li>
+        <li><strong></strong></li>
+        <li><strong></strong><a href="#other-ideas">other ideas!</a></li>
+    </ul>
+    <h2>Ingredient Amounts</h2>
+    <ul>
+        <li><strong></strong></li>
+        <li><strong></strong></li>
+        <li><strong> </strong></li>
+        <li><strong> </strong></li>
+        <li><strong> </strong></li>
+        <li><strong> </strong></li>
+        <li><strong> </strong></li>
+        <li><strong> </strong></li>
+        <li><strong></strong></li>
+        <li><strong> </strong><a href="#other-ideas"><mark>other ideas!</mark></a></li>
+    </ul>
+    <h2>Directions</h2>
+    <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li><a href="#other-ideas"><mark>other ideas!</mark></a></li>
+        <li></li>
+        <li></li>
+    </ol>
+    <h2 id="other-ideas">Other Ideas!</h2>
+    Many other ingredients can be added to the Moist Rich Delectable Cookies recipe, 
+    Here are a few i have tried.
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <h2 id="reivews-comments">Reviews and Comments</h2>
+    <blockquote></blockquote>
+    <blockquote></blockquote>
+    <blockquote></blockquote>
+    <blockquote></blockquote>
+    </body>
+</section>
+    </body>
+</html>
