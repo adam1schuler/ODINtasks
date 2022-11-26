@@ -1,0 +1,1 @@
+This is a large odin assignment, is about a recipe website, this is supposed to be in a separate repo, but i am just placing in my 'ODINTASKS' repo. I will be reviewing what i have learned up until this point.
