@@ -1,0 +1,17 @@
+.fancy {
+    background-color: darksalmon;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.more {
+    font-size: 24px;
+}
+#first {
+    color:blue;
+    font-size: 32px;
+}
+#second {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(101, 248, 101);
+}
