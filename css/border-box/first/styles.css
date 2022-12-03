@@ -51,8 +51,9 @@ p {
     border: 5px solid;
     border-color: blueviolet;
     border-radius: 25%;
-    width: 100px;
-    margin: 25px;
+    width: 200px;
+    margin: 0px;
     color: red;
-    padding-left: 10px;
+    padding-left: 0px;
+    padding-top: 5px;
 }
