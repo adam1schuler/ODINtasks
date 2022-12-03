@@ -1,0 +1,22 @@
+html {
+    background-color: burlywood;
+    text-align: center;
+    width: 100%
+}
+h1 {
+    color:red;
+    font-size: 50px;
+}
+.top {
+    border: 2px solid;
+    border-color: black;
+    border-radius: 10%;
+    height: 100%;
+}
+.item {
+    display: inline;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 10%;
+    height: 100%;
+}
