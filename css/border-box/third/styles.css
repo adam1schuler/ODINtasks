@@ -14,9 +14,18 @@ h1 {
     height: 100%;
 }
 .item {
-    display: inline;
+    display: inline-block;
     border: 2px solid;
     border-color: black;
     border-radius: 10%;
+    margin-bottom: 10px;
     height: 100%;
+    max-width: 190px; 
+}
+img {
+    border-radius: 25%;
+    max-width: 95%;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
