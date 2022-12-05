@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  body {
+    display: flexbox;
+    align-items: center;
+  }
+.menu-container {
+   /*position: fixed;*/
+    padding: 10px;
+    display: flex;
+    background-color: rgb(128, 202, 252);
+    justify-content: center;
+    position: fixed;
+    
+}
+.menu {
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    padding: 5px;
+    border: 1px solid;
+    border-color: rgb(73, 9, 248);
+    border-radius: 10px;
+    
+}
+/*.sign-in,
+.create-account,
+.new {
+    border: 1px solid;
+    border-color: blueviolet;
+}*/
+.new {
+    display: flex;
+    align-items: center;
+}
+.header-container {
+    
+    padding: 10px;
+    display: flex;
+    background-color: rgb(154, 209, 247);
+    justify-content: center;
+    
+}
+.header {
+    margin-top: 75px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+    padding: 5px;
+    border: 1px solid;
+    border-color: rgb(73, 9, 248);
+    border-radius: 10px;
+}
+
+.logo {
+    display: flex;
+    text-align: center;
+    color:red;
+    font-size: 75px;
+    font-family: miniver;
+    padding-right: 5px;
+
+}
+.paragraph {
+    display: flex;
+    width: 200px;
+    color: blueviolet;
+}
+.products-container {
+    margin: 10px;
+    padding: 10px;
+    /*display: flex;*/
+    background-color: rgb(192, 224, 247);
+    border-radius: 10px;
+    height: 1000px;
+
+}
+.products {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item-container {
+    display: flex;
+    max-width: 23%;
+    justify-content: center;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(209, 209, 252);
+    border: 1px solid;
+    border-color: rgb(73, 9, 248);
+    border-radius: 10%;
+    align-items: center; 
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    
+}
+img {
+    border-radius: 10%;
+}
