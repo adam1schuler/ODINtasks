@@ -71,7 +71,7 @@ button {
 .logo {
     display: flex;
     text-align: center;
-    color:red;
+    color:rgb(250, 143, 143);
     font-size: 75px;
     font-family: miniver;
     padding-right: 5px;
@@ -101,7 +101,16 @@ button {
     display: flex;
     max-width: 23%;
     justify-content: center;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10%;
+    background-color: rgb(250, 143, 143);
+    margin: 8px;
+    margin-top: 10px;
+    border-radius: 10%;
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
 .item {
     display: flex;
     flex-direction: column;
@@ -109,12 +118,13 @@ button {
     border: 1px solid;
     border-color: rgb(73, 9, 248);
     border-radius: 10%;
+    min-height: 200px;
+    justify-content: space-around;
     align-items: center; 
     padding: 10px;
     margin: 5px;
     text-align: center;
-    
-}
+} 
 img {
     border-radius: 10%;
     box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);;
@@ -130,3 +140,4 @@ a:hover {
 img:hover {
     width: 105%;
 }
+
