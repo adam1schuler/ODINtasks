@@ -28,6 +28,15 @@
     border-radius: 10px;
     
 }
+button {
+    height: 25px;
+    width: 100px;
+    background-color: rgb(209, 209, 252);
+    border: 2px solid;
+    border-color: blueviolet;
+    border-radius: 40%;
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);;
+  }
 /*.sign-in,
 .create-account,
 .new {
@@ -44,6 +53,7 @@
     display: flex;
     background-color: rgb(154, 209, 247);
     justify-content: center;
+    ;
     
 }
 .header {
@@ -51,11 +61,11 @@
     width: 1000px;
     display: flex;
     justify-content: space-evenly;
-    font-size: large;
     padding: 5px;
     border: 1px solid;
     border-color: rgb(73, 9, 248);
     border-radius: 10px;
+    font-size: 14px
 }
 
 .logo {
@@ -107,4 +117,16 @@
 }
 img {
     border-radius: 10%;
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);;
+}
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+a:hover {
+    font-size: larger;
+}
+img:hover {
+    width: 105%;
 }
