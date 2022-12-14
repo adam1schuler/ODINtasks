@@ -1,0 +1,50 @@
+body {
+    background-color: bisque;
+    color: crimson;
+    margin: 10px;
+}
+.page {
+    background-color: cornsilk;
+    display: flex;
+    max-width: 1200px;
+    max-height: fit-content;
+   
+    
+}
+.left {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+    justify-content: stretch;
+    
+}
+.right {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    
+}
+.first-section {
+    border: 1px solid black;
+    display: flex;
+}
+.second-section {
+    border: 1px solid rgb(224, 11, 11);
+    display: flex;
+    justify-content: center;
+}
+.third-section {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+.box {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 3px;
+    align-content: center;
+    text-align: center;
+}

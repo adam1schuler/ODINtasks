@@ -99,6 +99,7 @@ button {
 }
 .item-container {
     display: flex;
+    min-height: 300px;
     max-width: 23%;
     justify-content: center;
     border: 1px solid;
@@ -108,6 +109,7 @@ button {
     margin: 8px;
     margin-top: 10px;
     border-radius: 10%;
+    
     box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
@@ -119,12 +121,29 @@ button {
     border-color: rgb(73, 9, 248);
     border-radius: 10%;
     min-height: 200px;
-    justify-content: space-around;
     align-items: center; 
     padding: 10px;
     margin: 5px;
     text-align: center;
+    justify-content: flex-start;
+   flex-grow: 1;   
 } 
+.photo-discript {
+    display: flex;
+
+    
+}
+.photo {
+    min-width: 125px;
+    flex-grow: 1;
+
+}
+
+
+.item-discription {
+    position: sticky;
+    
+}
 img {
     border-radius: 10%;
     box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);;
@@ -138,6 +157,5 @@ a:hover {
     font-size: larger;
 }
 img:hover {
-    width: 105%;
+    width: 90px;
 }
-
