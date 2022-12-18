@@ -1,0 +1,56 @@
+:root {
+    --blue: #3882f6;
+    --dk-grey: #1F2937;
+    --lt-grey: #e5e7eb;
+    --off-white: #f9faf8;
+    --small: 18px;
+    --medium: 24px;
+    --large: 36px;
+    --larger: 48px;
+}
+body {
+    display: flex;
+    max-height: 2vh;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    font-family: 'Secular One', sans-serif;
+}
+.header {
+    display: flex;
+    width: viewport;
+    height: 50px;
+    background-color: var(--dk-grey);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: var(--lt-grey);
+}
+.logo {
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+}
+.site-name {
+    color: var(--blue);
+    font-size: var(--larger);
+    justify-content: center;
+}
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+    padding-right: 10px;
+   
+}
+a {
+    text-decoration: none;
+    color: var(--lt-grey);
+    font-size: var(--medium);
+  
+}
+a:hover {
+    color: var(--blue);
+    font-size: var(--large)
+}
