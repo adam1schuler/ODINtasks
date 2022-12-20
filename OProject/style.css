@@ -27,30 +27,164 @@ body {
     color: var(--lt-grey);
 }
 .logo {
-    width: 300px;
+    width: 200px;
     height: 50px;
     border-radius: 50px;
 }
 .site-name {
+    color: var(--lt-grey);
+    font-size: var(--larger);
+    justify-content: center;
+    text-shadow: var(--blue) 1px 0 10px;
+   
+}
+.site-name:hover {
     color: var(--blue);
     font-size: var(--larger);
     justify-content: center;
+    text-shadow: var(--lt-grey) 1px 0px 10px;
+    cursor: none;
+   
+}
+span.smaller {
+    font-size: var(--medium);
 }
 .header-links {
     display: flex;
     justify-content: space-between;
     gap: 20px;
     list-style: none;
-    padding-right: 10px;
-   
+    padding-right: 10px;  
 }
 a {
     text-decoration: none;
     color: var(--lt-grey);
     font-size: var(--medium);
+    text-shadow: var(--blue) 1px 0 10px;
   
 }
 a:hover {
     color: var(--blue);
-    font-size: var(--large)
+    text-shadow: var(--lt-grey) 1px 0 10px;
 }
+.section-1 {
+    display: flex;
+    
+    background-color: var(--dk-grey);
+    height: fit-content;
+    color: var(--off-white);
+}
+.top-left {
+    padding: 25px;
+    max-width: 40%;
+    
+}
+.headline {
+    font-size: var(--larger   );
+    text-shadow: var(--blue) 1px 0 10px;
+    text-align: center;
+}
+p {
+    text-align: end;
+}
+.yellow {
+    color: rgb(250, 229, 112);
+}
+.red {
+    color: rgb(250, 117, 117);
+    
+}
+.blue {
+    color: var(--blue);
+}
+.mint {
+    font-family: 'Secular One', sans-serif;
+    font-size: var(--medium);
+    border: var(--blue) solid 2px;
+    border-radius: 50px;
+    color: var(--blue);
+    box-shadow: var(--blue) 1px 0 10px;
+    margin-left: 25%;
+   
+}
+.mint:hover {
+    border: var(--off-white) solid 2px;
+    border-radius: 50px;
+    color: var(--off-white);
+    box-shadow: var(--off-white) 1px 0 10px;
+    background-color: var(--blue);
+}
+.fight {
+    border-radius: 50px 75px 50px 75px;
+    height: 350px;
+    width: 500px;
+    padding: 5px;
+}
+.carousel {
+    margin:  auto;
+    overflow: hidden;
+    text-align: center;
+    padding-left: 20px;
+  }
+  
+  .slides {
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+  
+  .slides::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .slides-item {
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    flex-shrink: 0;
+    font-size: 100px;
+    height: 250px;
+    justify-content: center;
+    margin: 0 1rem;
+    position: relative;
+    scroll-snap-align: start;
+    transform: scale(1);
+    transform-origin: center center;
+    transition: transform .5s;
+    width: 110%;
+  }
+  
+  .carousel__nav {
+    padding: 1.25rem .5rem;
+  }
+  
+  .slider-nav {
+    align-items: center;
+    background-color: #ddd;
+    border-radius: 50%;
+    color: #000;
+    display: inline-flex;
+    height: 1.5rem;
+    justify-content: center;
+    padding: .5rem;
+    position: relative;
+    text-decoration: none;
+    width: 1.5rem;
+  }
+  
+ .card {
+    display: flex;
+    padding-top: 5px;
+    font-size: var(--small);
+    
+ }
+ .discription {
+    width: 200px;
+    padding-right: 10px;
+ }
+ .nft {
+    border-radius: 25px;
+ }
