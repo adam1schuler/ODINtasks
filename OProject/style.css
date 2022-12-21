@@ -84,6 +84,13 @@ a:hover {
     text-shadow: var(--blue) 1px 0 10px;
     text-align: center;
 }
+.headline:hover {
+    color: var(--blue);
+    font-size: var(--larger);
+    justify-content: center;
+    text-shadow: var(--lt-grey) 1px 0px 10px;
+    cursor: none;
+}
 p {
     text-align: end;
 }
@@ -187,4 +194,78 @@ p {
  }
  .nft {
     border-radius: 25px;
+ }
+ .section-3 {
+    background-color: var(--lt-grey);
+    height: fit-content;
+    padding: 25px 100px 50px 150px;
+    text-align: end;
+    font-size: var(--medium);
+ }
+ .section-4 {
+    background-color: var(--dk-grey);
+    
+}
+ .box {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--off-white);
+    margin: 50px;
+    padding: 10px;
+    border-radius: 50px;
+ }
+ .left {
+    text-align: right;
+    flex: 1 1 600px;
+    
+ }
+
+ .heading {
+    font-size: var(--larger)
+ }
+ .explination {
+    font-size: var(--small);
+    color: var(--blue);
+ }
+ .right {
+    display: flex;
+   flex: 1 1 auto;   
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ 
+ .connect {
+    font-family: 'Secular One', sans-serif;
+    font-size: var(--small);
+    border: var(--blue) solid 2px;
+    border-radius: 50px;
+    color: var(--blue);
+    box-shadow: var(--blue) 1px 0 10px;
+    max-height: 200px;
+    
+ }
+ .connect:hover {
+    border: var(--off-white) solid 2px;
+    border-radius: 50px;
+    color: var(--off-white);
+    box-shadow: var(--off-white) 1px 0 10px;
+    background-color: var(--blue);
+ }
+ .footer {
+    display: flex;
+    min-height: 75px;
+    background-color: var(--blue);
+    color: var(--off-white);
+    font-size: var(var(--small));
+    justify-content: center;
+    align-items: center;
+ }
+ .close:hover {
+    border: var(--off-white) solid 2px;
+    border-radius: 50px;
+    color: var(--dk-grey);
+    box-shadow: var(--off-white) 1px 0 10px;
+    background-color: var(--blue);
+    padding: 5px;
  }
